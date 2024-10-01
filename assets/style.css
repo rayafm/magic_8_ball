@@ -1,0 +1,63 @@
+body { 
+    background-color: #ddd;
+    font-family: Helvetica;
+    color: #323232;
+} 
+
+h2 { 
+    text-align: center;
+}
+
+.content { 
+    text-align: justify;
+    width: 500px; 
+    height: 270px;
+    border: 10px solid #0096FF;
+    background-color: #F0FFFF;
+    margin: auto;
+    padding: 15px;
+} 
+
+.btn {
+    width: 150px; 
+    height: 30px;
+    background-color: #0096FF; 
+    font-size: 15px;
+    border: none;
+    text-align: center; 
+    justify-content: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 5px;
+} 
+
+.btn:active, .btn:hover { 
+    background-color: #47B5FF; 
+    cursor: pointer;
+} 
+
+input[type="text"] { 
+    width: 450px; 
+    height: 50px;
+} 
+
+.quest { 
+    text-align: justify; 
+    justify-content: center;
+    padding: 0 25px 20px 25px;
+} 
+
+@media screen and (max-width: 480px) { 
+    .content, input[type="text"] { 
+        width: 85%;
+    }
+
+    p { 
+        font-size: 13px;
+    }
+
+    .btn { 
+        height: 20px;
+        font-size: 13px;
+    }
+}
